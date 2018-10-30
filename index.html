@@ -3,7 +3,7 @@
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 
 <body style="margin : 0px; overflow: hidden;">
-  <a-scene embedded arjs="sourceType: webcam;">
+  <a-scene embedded arjs="trackingMethod: best; debugUIEnabled: false;">
       <a-marker-camera type="pattern" url="GTRIAL/Ortuks marker/pattern-marker (1).patt"></a-marker-camera>
     <a-entity
       gltf-model-next="src: url(GTRIAL/Ortuks model/ortuks .gltf);"></a-entity>
